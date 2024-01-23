@@ -8,6 +8,7 @@ import ScrollAnimC2 from '../components/animated/scroll/ScrollAnimC2';
 import ScrollAnimC3 from '../components/animated/scroll/ScrollAnimC3';
 import ScrollAnimC4 from '../components/animated/scroll/ScrollAnimC4';
 import ScrollAnimC6 from '../components/animated/scroll/ScrollAnimC6';
+import Footer from '../components/general/Footer';
 
 export default function Beranda() {
 
@@ -80,6 +81,12 @@ export default function Beranda() {
     {/* Container 6 */}
       <div className="container-flex mt-52 mb-40 mx-auto" id='c6'>
         <ScrollAnimC6 />
+      </div>
+
+
+    {/* Footer */}
+      <div className="container-flex mt-52 mb-40 mx-auto h-40" id='footer'>
+        <Footer />
       </div>
 
 

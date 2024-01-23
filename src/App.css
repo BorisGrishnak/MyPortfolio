@@ -55,3 +55,8 @@
   background-image: url('./assets/wpp.jpg');
   background-size: cover;
 }
+
+#footer {
+  background-image: 
+    -webkit-linear-gradient(top, #000000 0%, #000000 20%, #ffffff 100%),
+}
