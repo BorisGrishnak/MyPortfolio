@@ -1,9 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
-import { FaReact, FaNodeJs } from 'react-icons/fa';
-import NetCore from '../../svg/NetCore';
-import Tailwind from '../../svg/Tailwind';
-import MUI from '../../svg/MUI';
 
 export default function ScrollAnimC5() {
     const [isVisible, setIsVisible] = useState(false);

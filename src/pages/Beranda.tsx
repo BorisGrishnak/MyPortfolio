@@ -7,7 +7,6 @@ import { FaChevronRight } from "react-icons/fa";
 import ScrollAnimC2 from '../components/animated/scroll/ScrollAnimC2';
 import ScrollAnimC3 from '../components/animated/scroll/ScrollAnimC3';
 import ScrollAnimC4 from '../components/animated/scroll/ScrollAnimC4';
-import ScrollAnimC5 from '../components/animated/scroll/ScrollAnimC5';
 import ScrollAnimC6 from '../components/animated/scroll/ScrollAnimC6';
 
 export default function Beranda() {
