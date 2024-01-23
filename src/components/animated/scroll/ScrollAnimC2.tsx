@@ -32,7 +32,7 @@ export default function ScrollAnimC2() {
         </div>
         <div className="">
           <p className='w-[85vh] text-start mx-auto mt-24 text-xl text-[#b6bec4]'>
-            Greetings! My name is Kratos Mulligan, im a fullstack web developer mastering in React JS/TS for Front-End,
+            Greetings! My name is Dimas, sometimes they call me Kratos, im a fullstack web developer mastering in React JS/TS for Front-End,
             Microsoft .Net Core API & Node JS with Prisma ORM for Back-End.
             <br />
             <br />
