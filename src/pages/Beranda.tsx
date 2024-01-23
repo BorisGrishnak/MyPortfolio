@@ -43,7 +43,7 @@ export default function Beranda() {
           <h6 className='text-8xl text-start font-normal animate-slideUp text-[#E3CCB2]'>Guten</h6>
           <h6 className='text-9xl text-start font-semibold animate-slideUp text-[#E3CCB2]'>{time()}</h6>
           
-          <div className="mt-10 border-amber-700 border-r-4 border-b-4 bg-amber-500 animate-fadeIn w-72 h-12">
+          <div className="mt-10 border-amber-700 border-r-4 border-b-4 bg-amber-500 animate-fadeIn w-80 h-12">
             <p className='text-start mt-1 ms-6 text-2xl font-bold animate-slideinLeft' id='mergeText'>
               I am Dimas Aulia Putra
             </p>
