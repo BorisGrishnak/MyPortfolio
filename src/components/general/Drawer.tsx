@@ -1,5 +1,5 @@
 import '../../Drawer.css'
-import { FaHome, FaUser, FaScroll, FaMagic } from 'react-icons/fa';
+import { FaHome, FaUser, FaScroll, FaMagic, FaUsers } from 'react-icons/fa';
 import SmoothScroll from '../animated/scroll/SmoothScroll'; 
 
 export default function Drawer(oppen: any) {
@@ -9,7 +9,7 @@ export default function Drawer(oppen: any) {
         
         {/* Drawer content goes here */}
         <div className="drawer-content">
-            <div className="mt-44">
+            <div className="mt-24">
                 <SmoothScroll to="c1">
                   <button className={`bg-[#00FFFF] hover:opacity-60 hover:border-amber-500 rounded-full h-16 ${ oppen.oppen ? 'animate-slideinc1' : ''}`}>
                     <FaHome color={'#FFFFFF'} size={24} />
@@ -28,6 +28,11 @@ export default function Drawer(oppen: any) {
                 <SmoothScroll to="c4">
                   <button className={`bg-[#00B0FF] hover:opacity-60 hover:border-amber-500 rounded-full mt-16 h-16 ${ oppen.oppen ? 'animate-slideinc4' : ''}`}>
                     <FaMagic color={'#FFFFFF'} size={24} />
+                  </button>
+                </SmoothScroll>
+                <SmoothScroll to="c6">
+                  <button className={`bg-[#00B0FF] hover:opacity-60 hover:border-amber-500 rounded-full mt-16 h-16 ${ oppen.oppen ? 'animate-slideinc4' : ''}`}>
+                    <FaUsers color={'#FFFFFF'} size={24} />
                   </button>
                 </SmoothScroll>
             </div>
